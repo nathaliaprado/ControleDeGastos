@@ -1,5 +1,5 @@
 # ControleDeGastos
-Projeto realizado como aprendizado no evento ELAS CODAM da Kenzie Academy Brasil em parceria com a Dupla Tech.
+Exercício realizado no evento ELAS CODAM da Kenzie Academy Brasil em parceria com a Dupla Tech.
 
 Resultado:
 
