@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	  <meta charset="utf-8">
+
+        <title>CONTROLE DE GASTOS</title>
+        
+        <link rel="stylesheet" type="text/css" href="/style.css">
+
+        <link rel="stylesheet" type="text/css" href="/reset.css">
+        
+    </head>
+
+    <!-- CORPO DA PÁGINA -->
+    <body>
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main>
+
+            <!-- INSERÇÃO DE INFORMAÇÕES -->
+            <section class="secaoInsercaoInformacoes">
+                <h1>CONTROLE DE GASTOS</h1>
+                <p class="tresPontos">...</p>
+
+                <div class="formularioEntradaOrcamento">
+                    <h2>TOTAL ORÇAMENTO</h2>
+                    <input type="text">
+                    <button>Calcular</button>
+                </div>
+
+                <div class="formularioEntradaDespesa">
+                    <h2>NOME DESPESA</h2>
+                    <input type="text" class="formularioEntradaDespesa__nome">
+
+                    <h2>VALOR DESPESA</h2>
+                    <input type="number" class="formularioEntradaDespesa__valor">
+
+                    <button>Adicionar despesa</button>
+                </div>
+
+                <div class="containerDespesas">
+                    <div class="containerDespesas__cabecalho">
+                        <p class="tituloDespesa">TÍTULO DESPESA</p>
+                        <p>VALOR DESPESA</p>
+                    </div>
+                    <ul class="containerDespesas__lista">
+                        
+                    </ul>
+                </div>
+            </section>
+
+            <!-- IMPRESSÃO DE RESULTADOS -->
+            <section class="secaoImpressaoResultados">
+                <div class="secaoImpressaoResultados__orcamento">
+                    <h3>ORÇAMENTO</h3>
+                    <p>+ R$ 0</p>
+                </div>
+                <div class="secaoImpressaoResultados__despesas">
+                    <h3>DESPESAS</h3>
+                    <p>- R$ 0</p>
+                </div>
+                <div class="secaoImpressaoResultados__saldo">
+                    <h3>SALDO</h3>
+                    <p>R$ 0</p>
+                </div>
+            </section>
+        </main>
+
+        <script src="/style.js"></script>
+    </body>
+</html>
